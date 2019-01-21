@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28CA0EA421F5928300DBC6C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CA0EA321F5928300DBC6C5 /* AppDelegate.m */; };
+		28CA0EA721F5928300DBC6C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CA0EA621F5928300DBC6C5 /* ViewController.m */; };
+		28CA0EAA21F5928300DBC6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CA0EA821F5928300DBC6C5 /* Main.storyboard */; };
+		28CA0EAC21F5928400DBC6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CA0EAB21F5928400DBC6C5 /* Assets.xcassets */; };
+		28CA0EAF21F5928400DBC6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28CA0EAD21F5928400DBC6C5 /* LaunchScreen.storyboard */; };
+		28CA0EB221F5928400DBC6C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CA0EB121F5928400DBC6C5 /* main.m */; };
+		28CA0EBC21F5928400DBC6C5 /* Bill_SplitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CA0EBB21F5928400DBC6C5 /* Bill_SplitterTests.m */; };
+		28CA0EC721F5928400DBC6C5 /* Bill_SplitterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CA0EC621F5928400DBC6C5 /* Bill_SplitterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28CA0EB821F5928400DBC6C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CA0E9721F5928300DBC6C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CA0E9E21F5928300DBC6C5;
+			remoteInfo = "Bill Splitter";
+		};
+		28CA0EC321F5928400DBC6C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CA0E9721F5928300DBC6C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CA0E9E21F5928300DBC6C5;
+			remoteInfo = "Bill Splitter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28CA0E9F21F5928300DBC6C5 /* Bill Splitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bill Splitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CA0EA221F5928300DBC6C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28CA0EA321F5928300DBC6C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28CA0EA521F5928300DBC6C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28CA0EA621F5928300DBC6C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28CA0EA921F5928300DBC6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28CA0EAB21F5928400DBC6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28CA0EAE21F5928400DBC6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28CA0EB021F5928400DBC6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CA0EB121F5928400DBC6C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28CA0EB721F5928400DBC6C5 /* Bill SplitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bill SplitterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CA0EBB21F5928400DBC6C5 /* Bill_SplitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bill_SplitterTests.m; sourceTree = "<group>"; };
+		28CA0EBD21F5928400DBC6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28CA0EC221F5928400DBC6C5 /* Bill SplitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bill SplitterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CA0EC621F5928400DBC6C5 /* Bill_SplitterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bill_SplitterUITests.m; sourceTree = "<group>"; };
+		28CA0EC821F5928400DBC6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28CA0E9C21F5928300DBC6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CA0EB421F5928400DBC6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CA0EBF21F5928400DBC6C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28CA0E9621F5928300DBC6C5 = {
+			isa = PBXGroup;
+			children = (
+				28CA0EA121F5928300DBC6C5 /* Bill Splitter */,
+				28CA0EBA21F5928400DBC6C5 /* Bill SplitterTests */,
+				28CA0EC521F5928400DBC6C5 /* Bill SplitterUITests */,
+				28CA0EA021F5928300DBC6C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28CA0EA021F5928300DBC6C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28CA0E9F21F5928300DBC6C5 /* Bill Splitter.app */,
+				28CA0EB721F5928400DBC6C5 /* Bill SplitterTests.xctest */,
+				28CA0EC221F5928400DBC6C5 /* Bill SplitterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28CA0EA121F5928300DBC6C5 /* Bill Splitter */ = {
+			isa = PBXGroup;
+			children = (
+				28CA0EA221F5928300DBC6C5 /* AppDelegate.h */,
+				28CA0EA321F5928300DBC6C5 /* AppDelegate.m */,
+				28CA0EA521F5928300DBC6C5 /* ViewController.h */,
+				28CA0EA621F5928300DBC6C5 /* ViewController.m */,
+				28CA0EA821F5928300DBC6C5 /* Main.storyboard */,
+				28CA0EAB21F5928400DBC6C5 /* Assets.xcassets */,
+				28CA0EAD21F5928400DBC6C5 /* LaunchScreen.storyboard */,
+				28CA0EB021F5928400DBC6C5 /* Info.plist */,
+				28CA0EB121F5928400DBC6C5 /* main.m */,
+			);
+			path = "Bill Splitter";
+			sourceTree = "<group>";
+		};
+		28CA0EBA21F5928400DBC6C5 /* Bill SplitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				28CA0EBB21F5928400DBC6C5 /* Bill_SplitterTests.m */,
+				28CA0EBD21F5928400DBC6C5 /* Info.plist */,
+			);
+			path = "Bill SplitterTests";
+			sourceTree = "<group>";
+		};
+		28CA0EC521F5928400DBC6C5 /* Bill SplitterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28CA0EC621F5928400DBC6C5 /* Bill_SplitterUITests.m */,
+				28CA0EC821F5928400DBC6C5 /* Info.plist */,
+			);
+			path = "Bill SplitterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28CA0E9E21F5928300DBC6C5 /* Bill Splitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CA0ECB21F5928400DBC6C5 /* Build configuration list for PBXNativeTarget "Bill Splitter" */;
+			buildPhases = (
+				28CA0E9B21F5928300DBC6C5 /* Sources */,
+				28CA0E9C21F5928300DBC6C5 /* Frameworks */,
+				28CA0E9D21F5928300DBC6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bill Splitter";
+			productName = "Bill Splitter";
+			productReference = 28CA0E9F21F5928300DBC6C5 /* Bill Splitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28CA0EB621F5928400DBC6C5 /* Bill SplitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CA0ECE21F5928400DBC6C5 /* Build configuration list for PBXNativeTarget "Bill SplitterTests" */;
+			buildPhases = (
+				28CA0EB321F5928400DBC6C5 /* Sources */,
+				28CA0EB421F5928400DBC6C5 /* Frameworks */,
+				28CA0EB521F5928400DBC6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CA0EB921F5928400DBC6C5 /* PBXTargetDependency */,
+			);
+			name = "Bill SplitterTests";
+			productName = "Bill SplitterTests";
+			productReference = 28CA0EB721F5928400DBC6C5 /* Bill SplitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28CA0EC121F5928400DBC6C5 /* Bill SplitterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CA0ED121F5928400DBC6C5 /* Build configuration list for PBXNativeTarget "Bill SplitterUITests" */;
+			buildPhases = (
+				28CA0EBE21F5928400DBC6C5 /* Sources */,
+				28CA0EBF21F5928400DBC6C5 /* Frameworks */,
+				28CA0EC021F5928400DBC6C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CA0EC421F5928400DBC6C5 /* PBXTargetDependency */,
+			);
+			name = "Bill SplitterUITests";
+			productName = "Bill SplitterUITests";
+			productReference = 28CA0EC221F5928400DBC6C5 /* Bill SplitterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28CA0E9721F5928300DBC6C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Joshua Fanng";
+				TargetAttributes = {
+					28CA0E9E21F5928300DBC6C5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					28CA0EB621F5928400DBC6C5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 28CA0E9E21F5928300DBC6C5;
+					};
+					28CA0EC121F5928400DBC6C5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 28CA0E9E21F5928300DBC6C5;
+					};
+				};
+			};
+			buildConfigurationList = 28CA0E9A21F5928300DBC6C5 /* Build configuration list for PBXProject "Bill Splitter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28CA0E9621F5928300DBC6C5;
+			productRefGroup = 28CA0EA021F5928300DBC6C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28CA0E9E21F5928300DBC6C5 /* Bill Splitter */,
+				28CA0EB621F5928400DBC6C5 /* Bill SplitterTests */,
+				28CA0EC121F5928400DBC6C5 /* Bill SplitterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28CA0E9D21F5928300DBC6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CA0EAF21F5928400DBC6C5 /* LaunchScreen.storyboard in Resources */,
+				28CA0EAC21F5928400DBC6C5 /* Assets.xcassets in Resources */,
+				28CA0EAA21F5928300DBC6C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CA0EB521F5928400DBC6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CA0EC021F5928400DBC6C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28CA0E9B21F5928300DBC6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CA0EA721F5928300DBC6C5 /* ViewController.m in Sources */,
+				28CA0EB221F5928400DBC6C5 /* main.m in Sources */,
+				28CA0EA421F5928300DBC6C5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CA0EB321F5928400DBC6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CA0EBC21F5928400DBC6C5 /* Bill_SplitterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CA0EBE21F5928400DBC6C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CA0EC721F5928400DBC6C5 /* Bill_SplitterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28CA0EB921F5928400DBC6C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CA0E9E21F5928300DBC6C5 /* Bill Splitter */;
+			targetProxy = 28CA0EB821F5928400DBC6C5 /* PBXContainerItemProxy */;
+		};
+		28CA0EC421F5928400DBC6C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CA0E9E21F5928300DBC6C5 /* Bill Splitter */;
+			targetProxy = 28CA0EC321F5928400DBC6C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28CA0EA821F5928300DBC6C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28CA0EA921F5928300DBC6C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28CA0EAD21F5928400DBC6C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28CA0EAE21F5928400DBC6C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28CA0EC921F5928400DBC6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28CA0ECA21F5928400DBC6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28CA0ECC21F5928400DBC6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX8BFQJ7RJ;
+				INFOPLIST_FILE = "Bill Splitter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "compass.Bill-Splitter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28CA0ECD21F5928400DBC6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX8BFQJ7RJ;
+				INFOPLIST_FILE = "Bill Splitter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "compass.Bill-Splitter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28CA0ECF21F5928400DBC6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX8BFQJ7RJ;
+				INFOPLIST_FILE = "Bill SplitterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "compass.Bill-SplitterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bill Splitter.app/Bill Splitter";
+			};
+			name = Debug;
+		};
+		28CA0ED021F5928400DBC6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX8BFQJ7RJ;
+				INFOPLIST_FILE = "Bill SplitterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "compass.Bill-SplitterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bill Splitter.app/Bill Splitter";
+			};
+			name = Release;
+		};
+		28CA0ED221F5928400DBC6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX8BFQJ7RJ;
+				INFOPLIST_FILE = "Bill SplitterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "compass.Bill-SplitterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bill Splitter";
+			};
+			name = Debug;
+		};
+		28CA0ED321F5928400DBC6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX8BFQJ7RJ;
+				INFOPLIST_FILE = "Bill SplitterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "compass.Bill-SplitterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bill Splitter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28CA0E9A21F5928300DBC6C5 /* Build configuration list for PBXProject "Bill Splitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CA0EC921F5928400DBC6C5 /* Debug */,
+				28CA0ECA21F5928400DBC6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CA0ECB21F5928400DBC6C5 /* Build configuration list for PBXNativeTarget "Bill Splitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CA0ECC21F5928400DBC6C5 /* Debug */,
+				28CA0ECD21F5928400DBC6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CA0ECE21F5928400DBC6C5 /* Build configuration list for PBXNativeTarget "Bill SplitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CA0ECF21F5928400DBC6C5 /* Debug */,
+				28CA0ED021F5928400DBC6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CA0ED121F5928400DBC6C5 /* Build configuration list for PBXNativeTarget "Bill SplitterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CA0ED221F5928400DBC6C5 /* Debug */,
+				28CA0ED321F5928400DBC6C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28CA0E9721F5928300DBC6C5 /* Project object */;
+}
